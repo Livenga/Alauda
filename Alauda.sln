@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alauda.Native", "Alauda.Native\Alauda.Native.csproj", "{34D5A0C1-D385-4D6D-996D-33744556648A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alauda.UIAutomation", "Alauda.UIAutomation\Alauda.UIAutomation.csproj", "{801602DA-5682-4F82-933F-F0274E2E3D96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F5FD624E-B2D0-410D-846D-51AEF488C6EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alauda.Native.Test", "tests\Alauda.Native.Test\Alauda.Native.Test.csproj", "{234F2FF2-8C14-4FAB-80EA-F90E24F90712}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alauda.UIAutomation.Test", "tests\Alauda.UIAutomation.Test\Alauda.UIAutomation.Test.csproj", "{555282B2-AA6B-4EF9-BA54-A2FD3948DDD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alauda.ExampleWindow", "Alauda.ExampleWindow\Alauda.ExampleWindow.csproj", "{7EFB3302-DAFF-4F74-A791-AB2BAC17864C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34D5A0C1-D385-4D6D-996D-33744556648A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34D5A0C1-D385-4D6D-996D-33744556648A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34D5A0C1-D385-4D6D-996D-33744556648A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34D5A0C1-D385-4D6D-996D-33744556648A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{801602DA-5682-4F82-933F-F0274E2E3D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{801602DA-5682-4F82-933F-F0274E2E3D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{801602DA-5682-4F82-933F-F0274E2E3D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{801602DA-5682-4F82-933F-F0274E2E3D96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{234F2FF2-8C14-4FAB-80EA-F90E24F90712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{234F2FF2-8C14-4FAB-80EA-F90E24F90712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{234F2FF2-8C14-4FAB-80EA-F90E24F90712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{234F2FF2-8C14-4FAB-80EA-F90E24F90712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{555282B2-AA6B-4EF9-BA54-A2FD3948DDD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{555282B2-AA6B-4EF9-BA54-A2FD3948DDD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{555282B2-AA6B-4EF9-BA54-A2FD3948DDD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{555282B2-AA6B-4EF9-BA54-A2FD3948DDD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EFB3302-DAFF-4F74-A791-AB2BAC17864C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EFB3302-DAFF-4F74-A791-AB2BAC17864C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EFB3302-DAFF-4F74-A791-AB2BAC17864C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EFB3302-DAFF-4F74-A791-AB2BAC17864C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{234F2FF2-8C14-4FAB-80EA-F90E24F90712} = {F5FD624E-B2D0-410D-846D-51AEF488C6EE}
+		{555282B2-AA6B-4EF9-BA54-A2FD3948DDD3} = {F5FD624E-B2D0-410D-846D-51AEF488C6EE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8B6F7E5-BE2B-4D98-A446-5E1DD9C3B4EE}
+	EndGlobalSection
+EndGlobal
